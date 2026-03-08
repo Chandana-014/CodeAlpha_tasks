@@ -1,0 +1,191 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#111;
+padding:15px 0;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.navbar{
+width:90%;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:white;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#00adb5;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(120deg,#00adb5,#393e46);
+color:white;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:5px;
+margin-right:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:black;
+color:white;
+}
+
+.section-title{
+text-align:center;
+margin:60px 0 30px;
+font-size:32px;
+}
+
+.about{
+width:80%;
+margin:auto;
+text-align:center;
+}
+
+.skills-container{
+width:80%;
+margin:auto;
+}
+
+.skill{
+margin-bottom:20px;
+}
+
+.skill-bar{
+background:#ddd;
+height:10px;
+border-radius:5px;
+overflow:hidden;
+}
+
+.skill-bar span{
+display:block;
+height:100%;
+background:#00adb5;
+}
+
+.projects-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+width:80%;
+margin:auto;
+}
+
+.project-card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.project-card button{
+margin-top:10px;
+padding:8px 15px;
+border:none;
+background:#00adb5;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+
+.contact{
+width:80%;
+margin:auto;
+text-align:center;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.contact-form button{
+padding:10px;
+border:none;
+background:#00adb5;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+.social a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}

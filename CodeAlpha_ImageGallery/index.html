@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Responsive Image Gallery</h1>
+
+<div class="filter-buttons">
+<button onclick="filterSelection('all')">All</button>
+<button onclick="filterSelection('nature')">Nature</button>
+<button onclick="filterSelection('city')">City</button>
+<button onclick="filterSelection('animals')">Animals</button>
+</div>
+
+<div class="gallery">
+
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img1.jpg.jpg" class="gallery-item nature">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img2.jpg.jpg" class="gallery-item nature">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img3.jpg.jpg" class="gallery-item city">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img4.jpg.jpg" class="gallery-item animals">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img5.jpg.jpg" class="gallery-item city">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img6.jpg.jpg" class="gallery-item nature">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img7.jpg.jpg" class="gallery-item animals">
+<img src="C:\Users\phani\OneDrive\Desktop\chandana\img8.jpg.jpg" class="gallery-item city">
+
+</div>
+
+<div id="lightbox" class="lightbox">
+<span class="close">&times;</span>
+<img class="lightbox-content" id="lightbox-img">
+<div class="controls">
+<button id="prev">Prev</button>
+<button id="next">Next</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
